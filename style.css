@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 110px;
+   width: 100%;
+   /* border: 2px solid black;*/
+    display: flex;
+    background-color: #ffff;
+    position: sticky;
+    top: 0;
+}
+#img{
+    margin-top: 27px;
+    margin-left: 150px;
+ }
+ #li{
+     justify-content: center;
+     list-style-type: none;
+     display: flex;
+     margin: 0 auto;
+     gap: 60px;
+     z-index: 9999;
+     font-size: 18px;
+     font-weight: 500;
+     font-family: var(--font-lato),sans-serif;
+     margin-top: 42px;
+     margin-left: 250px;
+     transition: 0.5s ease-in;
+     cursor: pointer;
+     color: rgb(10 84 139);
+ }
+ #li :hover{
+     color: rgb(0 153 147);
+ }
+ #img1{
+     margin-top: 38px;
+     margin-right: 180px;
+     color: rgb(10 84 139);
+     cursor: pointer;
+ }
+ #img1 :hover{
+     color: rgb(0 153 147);
+ }
+.vedio{
+    object-fit: cover;
+    margin-top: 30px;
+}
+#our{
+    margin-left: 610px;
+    margin-top: 20px;
+}
+.container1{
+    height: 500px;
+    width: 100%;
+   /* border: 2px solid black;*/
+    margin-top: 5px;
+    display: flex;
+}
+.content{
+    height: 500px;
+    width: 400px;
+    /border: 1px solid green;/
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--font-lato),sans-serif;
+    color: rgb(92 92 92/var(--tw-text-opacity));
+    --tw-text-opacity: 1;
+    padding-top: 120px;
+    margin-left: 280px;
+}
+#product{
+    margin-left: 500px;
+    margin-top: 19px;
+}
+.procards{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    cursor: pointer;
+}
+.card-title{
+    --tw-text-opacity: 1;
+    color: rgb(10 84 139);
+    font-weight: 600;
+    font-size: 16px !important;
+    font-family: var(--font-lato),sans-serif;
+    margin-left: 30px;
+}
+.card-text{
+    --tw-text-opacity: 1;
+    color: rgb(92 92 92/var(--tw-text-opacity));
+    font-weight: 350;
+    font-family: var(--font-lato),sans-serif;
+    font-size: 16px;
+}
+.procards1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#eat{
+    margin-left: 500px;
+    margin-top: 22px;
+}
+#media{
+    margin-left: 470px;
+    margin-top: 10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+#media1{
+    border-radius: 17px;
+    cursor: pointer;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    font-weight: 390;
+    font-family: var(--font-lato),sans-serif;
+    font-size: 18px;
+    cursor: pointer; 
+    color: rgb(10 84 139)
+}
+.footer1{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    /border: 1px solid black;/
+    padding-left: 60px;
+    padding-top: 0;
+    background-color: #ebe1e1;
+}
+#logos{
+    display: flex;
+    margin-left: 1px;
+}
+#dostea{
+    margin-top: 130px;
+    margin-left: 1px;
+}
+.input{
+    height: 300px;
+    width: 200px;
+    /border: 1px solid green;/
+    margin-right: 30px;
+    margin-top: 150px;
+}
+.footer2{
+    text-align: center;
+}
